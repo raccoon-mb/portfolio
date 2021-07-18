@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.logo {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: bold;
+    animation: logo 0.5s linear infinite;
+}
+hr {
+    margin: 0px;
+}
+i {
+    font-size: 18px;
+}
+/*Блок навигации*/
+.navigation {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.navigation__list {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation__item{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    margin-right: 0px;
+}
+.navigation__item:hover {
+    background: #f5f8fa;
+}
+.navigation__item a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.navigation__item a:hover {
+    color:#0074d9;
+}
+.navigation__item:nth-child(3) {
+    margin-right: 0px;
+}
+/*Блок навигации конец*/
+
+/*Титульный блок*/
+.title {
+    width: 100%;
+    height: 280px;
+    padding: 20px 0px 20px 0px;
+    background: #f5f8fa;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.title__center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title__photo > img {
+    border: 8px solid white;
+    border-radius: 50%;
+}
+.title__name {
+    font-size: 36px;
+    font-weight: 600;
+}
+/*Титульный блок конец*/
+
+/*Блок информации*/
+.information {
+    padding: 20px 300px 20px 300px;
+}
+.information__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information__about h2 {
+    margin: 0px;
+}
+.information__about {
+    display: flex;
+    justify-content: center;
+}
+.information__contact {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.information__contact ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.information__contact a {
+    color: black;
+}
+.information__contact a:hover {
+    color:#0074d9;
+}
+.information__contact .information__link {
+    position: relative;
+    top: 10px;
+    left: -5px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+/*Блок информации конец*/
+
+/*Блок навыки*/
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.skills__container {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.skills__title {
+    padding-left: 14px;
+}
+.skills__svg {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+figure {
+    margin: 0px;
+    text-align: center;
+}
+/*Блок навыки конец*/
+
+/*Блок портфолио*/
+.works {
+    padding: 20px 200px 20px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.works__title {
+    display: flex;
+    justify-content: center;
+}
+.works__block {
+    display: flex;
+    justify-content: center;
+}
+/*Блок портфолио конец*/
