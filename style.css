@@ -104,7 +104,7 @@ nav {
     justify-content: center;
 }
 .information__contact {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
